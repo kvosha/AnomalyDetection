@@ -359,6 +359,6 @@ AnomalyDetectionTs <- function(x, max_anoms = 0.10, direction = 'pos',
   if(plot){
     return (list(anoms = anoms, plot = xgraph))
   } else {
-    return (list(anoms = anoms, plot = plot.new()))
+    return (list(anoms = anoms, plot = NULL))
   }
 }
